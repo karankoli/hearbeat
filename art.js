@@ -10,6 +10,7 @@
 // }
 const audio= new Audio();
 audio.src="hb.mp3";
+audio.autoplay=true;
 audio.loop=true;
 audio.play();
 
